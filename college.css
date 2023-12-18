@@ -12,10 +12,7 @@
     font-weight: 500;
 }
 .navbar-nav li a:hover{
-    background-color: rgba(28,22,96,255) ;
-    color: white !important;
-     border-radius: 20px;
-     transform: scale(1.1);
+    border-bottom: 2px solid ;
 }
 
 .btn-outline-success {
