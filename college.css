@@ -131,7 +131,6 @@ h1{
     background: url("co\ curricular.jpg") no-repeat fixed ;
     background-size: cover;
     width: 100% !important;
-    height: 100vh;
 }
 .course-card{
     margin: 8rem 3.7rem;
