@@ -128,7 +128,7 @@ h1{
     color:#ececec;
 }
 #course{
-      background: url("img/graduate.jpg") no-repeat fixed 
+      background: url("img/graduate.jpg") no-repeat fixed;
     background-size: cover;
     width: 100% !important;
 }
