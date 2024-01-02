@@ -65,7 +65,7 @@
                 <option value="2">ICS</option>
                 <option value="3">I COM</option>
               </select>
-            <button type="submit" class="btn btn-primary mb-3 but">Submit</button>
+            <button type="submit" class="btn btn-primary mb-3 but" id="mybutton" onclick="myFunction()>Submit</button>
             <div class="form-check ">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label mb-4" for="flexCheckChecked">
@@ -76,13 +76,13 @@
       </div>
 
  <script>
-  var a = document.getElementById("marks").value;
-
-  var b = 800;
-  console.log(a);
-//   if(a<=b){
-//   alert("you are not egligible");
-//   }
+function myFunction() {
+       
+       var a = document.querySelector("#marks").value;
+       if(a <= 800){
+       return alert('sorry you are not egligible');
+    }
+  }
  </script>
 
 
